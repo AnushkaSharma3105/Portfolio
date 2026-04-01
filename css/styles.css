@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e0e0e0;
+    color: #e0e0e0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none; /* removes bullets */
+    margin: 0px 28px;
+
+}
+
+.main-heading1{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-heading2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 8px;
+}
+
+.btn1{
+    display: inline-block;
+    margin-left: 43.4%;
+    font-size: 16px;
+    width: 150px;
+    font-weight: 500;
+    background-color: rgb(248, 175, 6);
+    height: 30px;
+    transition: transform 0.4s ease;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+.btn1:hover{
+    background-color: rgb(248, 163, 6);
+    transform: scale(1.07);
+}
+
+.intro-text{
+    text-align: center;
+    font-size: 20px;
+}
+
+.social-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  z-index: 1000;
+}
+
+.social-fixed a {
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.social-fixed a:hover {
+  transform: scale(1.1);
+  background-color: #555;
+  
+}
+
+.nav-bar{
+    display: inline-block; /* for smooth transition */
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+
+}
+
+.nav-bar:hover{
+    background-color: rgba(51, 49, 49, 0.6);
+    
+}
+
+/* About */
+
+.aboutme h2{
+    margin-top: 320px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.aboutme p{
+    margin-left: 95px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    font-size: 17px;
+    color: black;
+}
+
+/* skills */
+
+.icons-row{
+    margin-top: 20px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    z-index: 1000;
+    justify-content: center;
+    
+}
+
+.myskills{
+    background-color: #1a1c1e;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.myskills h2{
+    text-align: center;
+    padding-top: 58px;
+    font-size: 30px;
+}
+
+.myskills i{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 60px;    
+}
+
+.myskills p {
+    position: relative;
+    bottom: 40px;
+}
+
+/* projects */
+.project-card{
+    padding-bottom: 80px;
+}
+
+.project-card h2{
+    color: black;
+    text-align: center;
+    padding-top: 58px;
+    font-size: 30px;
+}
+
+.project-box h3{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 21px;
+}
+
+.project-box p{
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.project-box{
+    display: flex;
+}
+
+#project1{
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+.project-box a{
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+    font-weight: 600;
+    font-size: 17px;
+    padding: 100px 150px;
+}
+
+#project2{
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 50px;  
+}
+
+/* contact */
+#contact{
+    background-color: #1a1c1e;
+}
+
+.contact-me h2{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 58px;
+    font-size: 30px;
+}
+
+.contact-me p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}

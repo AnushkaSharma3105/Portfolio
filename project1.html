@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="heading">
+        <h1>XplainCredit</h1>
+        <p>AI-powered loan risk analyzer that predicts default probability and explains every decision.</p><br>
+        <a class="btn" href="https://xplaincredit.onrender.com/" target="_blank">View project</a>
+    </header>
+
+    <section class="aboutproject">
+        <div>
+            <h2>About the Project</h2>
+            <p>XplainCredit is an AI-powered loan default risk assessment system that predicts whether a loan applicant
+                is likely to default and — more importantly — <strong>explains exactly why</strong>. Built for
+                transparency in lending, it mirrors what real Indian NBFCs and fintech companies need for responsible
+                credit decisions.</p>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li>4-tier risk classification: Low / Medium / High / Very High</li>
+                <li>SHAP-based explainability — shows which factors drove the decision</li>
+                <li>What-If Simulator — change CIBIL score, income, or loan amount and see risk update live</li>
+                <li>Actionable improvement tips for loan applicants</li>
+                <li>Comparison of 3 ML models: Logistic Regression, Random Forest, and XGBoost</li>
+            </ul>
+
+            <h2>Tech Stack</h2>
+            <p>Python, XGBoost, SHAP, Streamlit, Scikit-learn, Pandas, Matplotlib</p>
+            
+            <h2>Screenshots</h2>
+            <div class="gallery">
+                <img src="images/credit1.png" alt="Screenshot 1" onclick="openLightbox(this)">
+                <img src="images/credit2.png" alt="Screenshot 2" onclick="openLightbox(this)">
+                <img src="images/credit3.png" alt="Screenshot 3" onclick="openLightbox(this)">
+            </div>
+
+            <!-- Lightbox -->
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                <span class="close">&times;</span>
+                <img id="lightbox-img" class="lightbox-content">
+            </div>
+
+            <script>
+                function openLightbox(img) {
+                    document.getElementById("lightbox").style.display = "block";
+                    document.getElementById("lightbox-img").src = img.src;
+                }
+                function closeLightbox() {
+                    document.getElementById("lightbox").style.display = "none";
+                }
+            </script>
+
+        </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Anushka Sharma. All rights reserved.
+    </footer>
+
+</body>
+
+</html>

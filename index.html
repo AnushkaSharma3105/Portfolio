@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anushka's Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      /* negative value pushes the video behind everything whereas positive value does opposite*/
+    }
+  </style>
+</head>
+
+<body>
+  <video autoplay loop muted plays-inline>
+    <source src="Background/pixabay.mp4" type="video/mp4">
+  </video>
+
+  <!-- NAV BAR -->
+  <section id="home">
+    <header>
+      <nav>
+        <div style="font-size: 21px;">Anushka's Portfolio</div>
+        <div>
+          <ul>
+            <li><a href="#home" class="nav-bar">Home</a></li>
+            <li><a href="#about" class="nav-bar">About</a></li>
+            <li><a href="#skills" class="nav-bar">Skills</a></li>
+            <li><a href="#projects" class="nav-bar">Projects</a></li>
+            <li><a href="#contact" class="nav-bar">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HEADER -->
+    <main>
+      <div>
+        <h1 class="main-heading1">Hi, I'm Anushka</h1>
+        <h2 class="main-heading2">Data Science Enthusiast | Problem Solver | Building Real-World Applications</h2>
+      </div> <br><br><br>
+      <a href="pdf/ANUSHKA SHARMA RESUME (updated).pdf" download class="btn1">Download Resume</a>
+    </main>
+    </div>
+  </section>
+
+  <!-- SOCIAL MEDIA ICONS -->
+  <div class="social-fixed">
+    <a href="https://github.com/AnushkaSharma3105/" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/anushka-sharma-344013289/" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:sharma.anushka3105@gmail.com" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="aboutme">
+      <h2>About Me</h2>
+      <p>I’m Anushka, a data science enthusiast skilled in Python and data analysis, building practical data-driven solutions and simple web interfaces to deploy them.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="myskills">
+      <h2>Skills</h2>
+      <div class="icons-row">
+
+        <div class="skill-item">
+          <i class="fab fa-html5 fa-3x" style="color: #e44d26;"></i>
+          <p>HTML5</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-css3-alt fa-3x " style="color: #264de4;"></i>
+          <p>CSS3</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-js-square fa-3x" style="color: #f0db4f;"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-database fa-3x" style="color:#f59e0b;"></i>
+          <p>SQL</p>
+        </div>
+
+        <div class="skill-item">
+          <i class="fab fa-python fa-3x" style="color: #3776ab;"></i>
+          <p>Python (Pandas, NumPy, Scikit-learn)</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-chart-line fa-3x" style="color:#22d3ee;"></i>
+          <p>Data Analysis & Visualization</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-github fa-3x" style="color:#ffffff;"></i>
+          <p>Git & GitHub</p>
+        </div>
+
+        <div class="skill-item">
+          <i class="fab fa-java fa-3x" style="color: #f89820;"></i>
+          <p>Data Structures & Algorithms (Java)</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="project-card">
+      <h2>Projects</h2>
+      <div class="project-box">
+
+        <div id="project1">
+          <h3>Project 1</h3>
+          <p>AI-powered loan risk analyzer that predicts default probability and explains every decision.</p>
+          <a href="project1.html">View Project</a>
+        </div>
+
+        <div id="project2">
+          <h3>Project 2</h3>
+          <p>Modern beauty e-commerce platform for seamless browsing and shopping of skincare and makeup products.</p>
+          <a href="project2.html">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-me">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:sharma.anushka3105@gmail.com">sharma.anushka3105@gmail.com</a></p>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Anushka Sharma. All rights reserved.
+  </footer>
+</body>
+
+</html>
